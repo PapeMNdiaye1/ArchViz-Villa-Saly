@@ -10,8 +10,27 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
+.canvas {
+  background-color: red;
+}
+
+.canvas.a-canvas {
+  cursor: none;
+  background-color: red;
+}
+
+.canvas.a-canvas.a-mouse-cursor-hover {
+  cursor: none;
+}
+
+.canvas.a-canvas.a-mouse-cursor-hover:hover {
+  cursor: none;
+}
+
 .a-loader-title {
-  background-color: black;
+  display: none;
+  width: 0em;
+  opacity: 0;
 }
 
 .a-enter-vr {
@@ -122,6 +141,7 @@ html {
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
   cursor: pointer;
+  display: none;
 }
 
 .the_gallery:hover {
